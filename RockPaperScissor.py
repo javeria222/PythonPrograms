@@ -27,3 +27,6 @@ while True:
 
     if not input(("Play Again? (Y/N) ")).capitalize() == "Y":
         break
+
+print(" Thanks For Playing!!")
+print("---------------------------")
