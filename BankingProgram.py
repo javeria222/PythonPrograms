@@ -11,13 +11,14 @@ def showBalance():
 
 def deposit():
     global balance
-    amount = float(input("Ennter amount to deposit: "))
+    amount = float(input("Enter amount to deposit: "))
     if amount > 0:
         balance += amount
         showBalance()
     else:
         print("Please enter a valid amount to deposit")
         print("***********************")
+
 
 
 def withdraw():
@@ -32,6 +33,7 @@ def withdraw():
     else:
         balance -= amount
         showBalance()
+
 
 def bankingOptions(opt):
     match opt:
