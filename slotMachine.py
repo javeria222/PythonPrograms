@@ -4,7 +4,7 @@ import random
 
 def spinRow():
     items = ["apple", "cherry", "grapes", "star", "sun"]
-    
+
     return [random.choice(items) for item in range(3)]
 
 def printRow(row):
