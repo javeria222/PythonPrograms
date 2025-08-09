@@ -10,7 +10,7 @@ Simple Banking Program
 Rock Paper Scissors Game
 Number Guessing Game
 Quiz game
-Concession program
+Concession Stand
 ...and more!
 
 No external libraries required. Great for learning and practicing core Python skills.
